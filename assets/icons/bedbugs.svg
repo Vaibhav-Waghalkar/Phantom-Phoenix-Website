@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="currentColor">
+  <!-- Bedbug Icon (Oval, flat, apple-seed shaped body with segmented ridges) -->
+  <g>
+    <!-- Short Antennae -->
+    <path d="M29 17 C26 13 22 10 18 9" stroke="currentColor" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+    <path d="M35 17 C38 13 42 10 46 9" stroke="currentColor" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+    <!-- Head -->
+    <ellipse cx="32" cy="18" rx="4" ry="3" />
+    <!-- Pronotum (curved collar) -->
+    <path d="M24 20 C27 22 37 22 40 20 C42 24 41 27 39 27 C34 26 30 26 25 27 C23 27 22 24 24 20 Z" />
+    <!-- Broad round/oval flattened abdomen -->
+    <ellipse cx="32" cy="39" rx="12.5" ry="14" />
+    <!-- Horizontal segmentation ridges -->
+    <path d="M20 30 Q32 32 44 30" stroke="#ffffff" stroke-width="1" fill="none" opacity="0.4"/>
+    <path d="M19.5 35 Q32 37.5 44.5 35" stroke="#ffffff" stroke-width="1" fill="none" opacity="0.4"/>
+    <path d="M20 40 Q32 42.5 44 40" stroke="#ffffff" stroke-width="1" fill="none" opacity="0.4"/>
+    <path d="M22 45 Q32 47.5 42 45" stroke="#ffffff" stroke-width="1" fill="none" opacity="0.4"/>
+    <path d="M25 50 Q32 52 39 50" stroke="#ffffff" stroke-width="1" fill="none" opacity="0.4"/>
+    <!-- Legs Left -->
+    <path d="M23 24 L15 21 L10 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round"/>
+    <path d="M20 32 L12 33 L8 40" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round"/>
+    <path d="M21 42 L13 46 L9 55" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round"/>
+    <!-- Legs Right -->
+    <path d="M41 24 L49 21 L54 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round"/>
+    <path d="M44 32 L52 33 L56 40" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round"/>
+    <path d="M43 42 L51 46 L55 55" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round"/>
+  </g>
+</svg>

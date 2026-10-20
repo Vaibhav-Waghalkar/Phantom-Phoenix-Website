@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="currentColor">
+  <!-- Mosquito Icon (Wings spread, long proboscis, spindly legs) -->
+  <g>
+    <!-- Long Proboscis / Needle -->
+    <path d="M32 17 L32 4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+    <!-- Head -->
+    <circle cx="32" cy="20" r="3.5" />
+    <!-- Thorax -->
+    <ellipse cx="32" cy="28" rx="4.5" ry="5.5" />
+    <!-- Slender Abdomen -->
+    <path d="M30 33 C30 33 29 48 32 54 C35 48 34 33 34 33 Z" />
+    <!-- Wings (delicate spread) -->
+    <path d="M31 27 C24 16 11 15 8 18 C7 21 16 26 29 29 Z" opacity="0.85" />
+    <path d="M33 27 C40 16 53 15 56 18 C57 21 48 26 35 29 Z" opacity="0.85" />
+    <!-- Front Legs -->
+    <path d="M29 22 L17 14 L12 8" stroke="currentColor" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+    <path d="M35 22 L47 14 L52 8" stroke="currentColor" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+    <!-- Middle Legs -->
+    <path d="M28 28 L14 27 L6 34" stroke="currentColor" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+    <path d="M36 28 L50 27 L58 34" stroke="currentColor" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+    <!-- Long Hind Legs -->
+    <path d="M29 33 L15 42 L8 58" stroke="currentColor" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+    <path d="M35 33 L49 42 L56 58" stroke="currentColor" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+  </g>
+</svg>

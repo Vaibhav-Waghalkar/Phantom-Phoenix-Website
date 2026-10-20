@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="currentColor">
+  <!-- Rat / Rodent Icon (Silhouette from card: side view, hunched back, curved tail) -->
+  <g>
+    <!-- Whiskers -->
+    <path d="M49 34 L57 32 M49 36 L58 37 M49 38 L56 42" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/>
+    <!-- Body Profile -->
+    <path d="M14 49 C16 49 19 48 22 47 C24 49 28 50 32 50 C38 50 42 48 46 47 C47 47 48 45 46 44 C44 44 42 44 41 43 C44 42 47 40 48 37 C49 35 48 34 45 34 C44 33 43 31 43 28 C41 28 39 30 38 32 C34 28 27 27 22 30 C15 34 14 42 16 47 C13 47 9 43 8 36 C7 28 12 21 18 17 C20 15 19 14 17 15 C10 19 5 27 6 36 C7 45 11 49 14 49 Z" />
+    <!-- Eye dot -->
+    <circle cx="43" cy="32" r="1" fill="#ffffff" />
+  </g>
+</svg>

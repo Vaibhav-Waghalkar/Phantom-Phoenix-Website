@@ -1,0 +1,17 @@
+{
+  "name": "phantom-phoenix-pest-control",
+  "version": "1.0.0",
+  "description": "Modern, responsive website for Phantom Phoenix Pest Control with booking management",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "keywords": ["pest-control", "phantom-phoenix", "express", "booking"],
+  "author": "Phantom Phoenix Pest Control",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2"
+  }
+}
