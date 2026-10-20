@@ -533,25 +533,12 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   // =========================================================================
-  // 9. STORED BOOKINGS VIEWER
+  // 9. STORED BOOKINGS VIEWER (USER-SPECIFIC LOCALSTORAGE ONLY)
   // =========================================================================
   if (viewBookingsBtn && bookingsListModal) {
-    viewBookingsBtn.addEventListener('click', async () => {
-      let bookings = getStoredBookings();
-
-      // Try fetching newest from server API as well
-      try {
-        const res = await fetch('/api/bookings');
-        if (res.ok) {
-          const data = await res.json();
-          if (data && data.bookings && data.bookings.length > 0) {
-            bookings = data.bookings;
-          }
-        }
-      } catch (err) {
-        // use local storage
-      }
-
+    viewBookingsBtn.addEventListener('click', () => {
+      // For customer privacy, only display bookings placed by this device / user stored in localStorage
+      const bookings = getStoredBookings();
       renderStoredBookings(bookings);
       bookingsListModal.classList.add('active');
       document.body.style.overflow = 'hidden';

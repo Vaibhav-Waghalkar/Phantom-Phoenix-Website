@@ -7,9 +7,16 @@
     "start": "node server.js",
     "dev": "node --watch server.js"
   },
-  "keywords": ["pest-control", "phantom-phoenix", "express", "booking"],
-  "author": "Phantom Phoenix Pest Control",
-  "license": "ISC",
+  "keywords": ["pest-control", "phantom-phoenix", "express", "booking", "client-project"],
+  "author": "Vaibhav Waghalkar",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Vaibhav-Waghalkar/Phantom-Phoenix-Website.git"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.19.2"
